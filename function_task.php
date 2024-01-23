@@ -6,8 +6,6 @@ Otherwise returns false.
 
 */
 
-// examples:
-
 
 function checkAge($age) {
     if (is_numeric($age) && $age >= 18 && $age < 120) {
