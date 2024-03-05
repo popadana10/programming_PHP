@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Favorite Books</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="booksite.">
+    <link rel="stylesheet" href="booksite.css">
 </head>
 <body>
     <div id="container">
@@ -37,11 +37,6 @@
                 // If the book is in the favorite list, add the class "fa-star" to the a tag with "bookmark" class.
                 // If not, add the class "fa-star-o". These are Font Awesome classes that add a filled star and a star outline respectively.
                 // Also, make sure to set the id parameter for each book, so the setfavorite.php page gets the information which book to favorite/unfavorite.
-
-                // Read the file into array variable $books:
-                $json = file_get_contents("books.json");
-                $books = json_decode($json, true);
-
             ?>
             <h2>Genre Name or "All Books"</h2>
 
